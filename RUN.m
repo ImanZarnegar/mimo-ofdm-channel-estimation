@@ -64,6 +64,14 @@ copyfile('config',['DATA' filesep noise_type filesep 'config']);
 % get the file_ID of  'DATA\factory\dnn\feat_list', frecord the featuretype
 % and noise type
 % 'w', --Open or create new file for writing. Discard existing contents, if any.
+dnn_path = ['DATA' filesep noise_type filesep 'dnn'];
+if ~exist(dnn_path, 'dir'); mkdir(dnn_path); end;
+
+fid = fopen(['DATA', filesep, noise_type, filesep, 'dnn', filesep, 'feat_list'],'w');
+tmp_str = ['d_' noise_type '_'  feat_type '.mat'];
+fprintf(fid,'%s\n', tmp_str);
+fclose(fid);
+
 fid = fopen(['DATA', filesep, noise_type, filesep, 'dnn', filesep, 'feat_list'],'w');
 tmp_str = ['d_' noise_type '_'  feat_type '.mat'];
 fprintf(fid,'%s\n', tmp_str);
