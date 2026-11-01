@@ -13,6 +13,9 @@
 Department of Electrical & Computer Engineering, Islamic Azad University, Karaj Branch  
 *Defended on January 12, 2025 (23 Dey 1403) — Final Grade: 19.75 / 20.0 (Honors)*
 
+**Author:** Iman Zarnegar Panah (Esfandabadi) • **Advisor:** Dr. Hamidreza Rabiee • **Co-Advisor:** Dr. Simin Khazrayi  
+📬 [i.zarnegarpanah@gmail.com](mailto:i.zarnegarpanah@gmail.com) • 🌐 [LinkedIn](https://www.linkedin.com/in/iman-zarnegar-panah) • 🆔 [ORCID: 0009-0005-1591-2517](https://orcid.org/0009-0005-1591-2517)
+
 [English Documentation](#-english-documentation) • [فارسی](#-مستندات-فارسی) • [Visual Gallery & Output Plots](#-visual-simulation-results--gallery) • [Reproduction Table](#-reproduction-table) • [Citation](#-academic-citation)
 
 ---
