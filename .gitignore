@@ -1,0 +1,11 @@
+DATA/
+premix_data/
+*.rar
+*.zip
+*.mat
+__pycache__/
+.pytest_cache/
+*.asv
+*~
+.DS_Store
+Thumbs.db
